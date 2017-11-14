@@ -1,0 +1,36 @@
+/*zeby zauwazyc effect rotate() nalezy ustawic transiton*/
+
+#transform img {
+/*	transform: rotate(20deg);*/
+	
+	transition: all 1s linear;
+}
+
+#transform img:hover {
+	transform: rotate(360deg);
+}
+
+/*
+translate sluzy do przesuwania elementow
+translateX – funkcja przesuwa element w osi poziomej x
+translateY – funkcja przesuwa element w osi pionowej  y 
+translate (ox,oy) wesrsja skrocona
+*/
+
+#transform2 img {
+	transition: all 1s linear;
+		
+}
+
+#transform2 img:hover {
+	transform: translate(150px, -100px);	
+}
+
+#transform3 img {
+	transition: all 1s linear;
+		
+}
+
+#transform3 img:hover {
+	transform: scale(1.5);	
+}
